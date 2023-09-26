@@ -285,26 +285,23 @@ legend {
   position: fixed;
   z-index: 10;
   width: 100%;
-  height: 6.25rem;
+  height: 3.125rem;
   background-color: white;
   color: black;
   display: flex;
   border-bottom: 3px solid black;
 }
-#page1 #hd .hd_wrapper:hover {
-  background-color: transparent;
-}
 #page1 #hd .hd_wrapper .hd_logo {
   text-indent: -9999px;
   width: 30%;
-  height: 6.25rem;
+  height: 3.125rem;
   border-right: 3px solid black;
   background: url();
 }
 #page1 #hd .hd_wrapper .hd_ul {
   display: flex;
   width: 70%;
-  height: 6.25rem;
+  height: 3.125rem;
   align-items: center;
   justify-content: space-around;
 }
@@ -312,8 +309,9 @@ legend {
   font-size: 50vh;
   display: inline-block;
   line-height: 170vh;
-  animation: fontMovin 300s linear infinite;
+  font-family: "Notable", sans-serif;
   color: white;
+  animation: fontMovin 300s linear infinite;
 }
 @keyframes fontMovin {
   0% {
@@ -327,4 +325,53 @@ legend {
 #page2 {
   width: 100%;
   height: 60.1875rem;
+  background-color: white;
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page3 {
+  width: 100%;
+  height: 60.1875rem;
+  background-color: black;
+  font-size: 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page4 {
+  width: 100%;
+  height: 60.1875rem;
+  background-color: black;
+  font-size: 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page5 {
+  width: 100%;
+  height: 60.1875rem;
+  background-color: black;
+  font-size: 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page6 {
+  width: 100%;
+  height: 60.1875rem;
+  height: 30.0938rem;
+  background-color: white;
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=comm.css.map */
